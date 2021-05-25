@@ -1,0 +1,100 @@
+.topnav {
+    overflow: hidden;
+    background-color: #ddd;
+    width: 100%;
+  }
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }  
+  .topnav a:hover {
+    background-color: black;
+    color: #04AA6D;
+  }
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+#newYork {
+    text-align: center;
+    color: white;
+}
+#welcome{
+    text-align: center;
+    color: #04AA6D;
+}
+#link{
+    color: #b92618 ;
+}
+body{
+    background: url(../images/world.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#about{
+    color: white;
+}
+
+#icon {
+    text-decoration: none;
+    float: left;
+  width: 10%;
+  padding: 10px;
+}
+
+#leftbox {
+    float:left; 
+    background-image: url(../images/water.jpg);
+    width:25%;
+    height:280px;
+    opacity: 0.6;
+}
+#middlebox{
+    float:left; 
+    background-image: url(../images/air.jpg);
+    width:50%;
+    height:280px;
+    opacity: 0.4;
+}
+#rightbox{
+    float:right;
+    background-image: url(../images/environment.jpg);
+    width:25%;
+    height:280px;
+    opacity: 0.4;
+}
+h1{
+    color:green;
+    text-align:center;
+}
+#in{
+    float:left; 
+    width:25%;
+    height:280px;
+}
+#fb{
+    float:left; 
+    width:25%;
+    height:280px;
+}
+#tw{
+    float:left; 
+    width:25%;
+    height:280px;
+}
+
+#footer {
+    height: 20px;
+    position:fixed;
+    bottom:0;
+    left:0;
+    background-color: #ddd; 
+    display: table;
+    clear: both;
+  } 
